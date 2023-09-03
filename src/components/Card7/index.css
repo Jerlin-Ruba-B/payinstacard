@@ -1,0 +1,38 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+@media screen and (max-width: 577px) {
+  .footer-container {
+    width: 270px;
+    margin-left: 120px;
+  }
+}
+.card7-heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  text-align: center;
+}
+@media screen and (max-width: 577px) {
+  .card7-heading {
+    font-size: 16px;
+  }
+}
+.card7-desc {
+  font-family: 'Roboto';
+  font-size: 12px;
+  text-align: center;
+}
+.card7-footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-icons {
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-right: 18px;
+}

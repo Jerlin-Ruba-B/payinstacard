@@ -1,0 +1,113 @@
+.bg_container {
+  background-color: #ffffff;
+  background-size: cover;
+  padding-top: 29px;
+  padding-left: 119px;
+}
+@media screen and (max-width: 577px) {
+  .bg_container {
+    background-color: #ffffff;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.card_1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 577px) {
+  .card_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.ellipse_des_container {
+  margin-top: 100px;
+}
+.card_1_ellipse {
+  width: 30px;
+}
+
+.card_1_desc {
+  padding: 0px;
+  width: 500px;
+}
+
+@media screen and (max-width: 577px) {
+  .card_1_desc {
+    padding-left: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.sub_head_card_1 {
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.card_1_heading {
+  font-family: 'Roboto';
+  font-size: 55px;
+  font-weight: bold;
+}
+.span_card_1 {
+  font-weight: 400;
+}
+.card_1_para {
+  color: rgb(153, 143, 143);
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+.sign_up_btn {
+  background-color: rgb(221, 89, 13);
+  color: white;
+  font-family: 'Roboto';
+  border-radius: 12px;
+  padding: 8px;
+  font-weight: 400px;
+  border-width: 0px;
+  width: 90px;
+}
+.substract_container {
+  display: flex;
+  justify-content: flex-end;
+}
+.substract {
+  width: 7px;
+}
+
+.substract_right {
+  width: 20px;
+}
+.pic_size {
+  width: 100vw;
+  height: 75vh;
+}
+
+@media screen and (max-width: 577px) {
+  .pic_size {
+    width: 100vw;
+    height: 75vh;
+    margin-left: 120px;
+  }
+}
+.cicle_substract_container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.circle_substract {
+  width: 23px;
+  margin-top: 24px;
+  margin-right: 200px;
+}

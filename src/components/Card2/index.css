@@ -1,0 +1,88 @@
+.card2_bg_container {
+  padding-left: 120px;
+  margin-top: 120px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 1091px;
+}
+@media screen and (max-width: 577px) {
+  .card2_bg_container {
+    padding-left: 120px;
+    margin-top: 120px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 570px;
+  }
+}
+.mini_cards_container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  box-shadow: 1px 1px 0px 0px rgb(190, 186, 186);
+}
+.profile_pic {
+  width: 55px;
+  height: 70px;
+}
+.name_container {
+  margin-left: 12px;
+}
+.name {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+}
+.profile_des {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: rgb(165, 157, 157);
+}
+.mini_card_holder {
+  padding: 12px;
+  border-radius: 12px;
+  margin-right: 80px;
+}
+.new_ellipse {
+  width: 25px;
+  margin-right: 30px;
+}
+.card_2_description_container {
+  width: 300px;
+}
+.card_2_heading {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.span_card_2 {
+  font-weight: 400;
+}
+.card_2_para {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+}
+.list_items {
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-bottom: 10px;
+  list-style-type: circle;
+}
+.explore_btn {
+  background-color: rgb(221, 89, 13);
+  color: white;
+  font-family: 'Roboto';
+  border-radius: 12px;
+  padding: 8px;
+  font-weight: 400px;
+  border-width: 0px;
+  margin-top: 12px;
+}
